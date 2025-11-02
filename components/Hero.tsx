@@ -91,7 +91,7 @@ const Hero = () => {
               href="#projects"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 md:py-4 bg-[#9b5cff] text-white font-semibold rounded-lg glow-effect hover:bg-[#7a3eff] transition-colors whitespace-nowrap"
+              className="px-6 py-3 md:px-8 md:py-4 bg-[#9b5cff] text-white font-semibold rounded-lg glow-effect hover:bg-[#7a3eff] transition-colors whitespace-nowrap"
             >
               Ver Projetos
             </motion.a>
@@ -100,7 +100,7 @@ const Hero = () => {
               href="#contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-3 md:py-4 border-2 border-[#9b5cff] text-[#9b5cff] font-semibold rounded-lg hover:bg-[#9b5cff]/10 transition-colors whitespace-nowrap"
+              className="px-6 py-3 md:px-8 md:py-4 border-2 border-[#9b5cff] text-[#9b5cff] font-semibold rounded-lg hover:bg-[#9b5cff]/10 transition-colors whitespace-nowrap"
             >
               Entrar em Contato
             </motion.a>
