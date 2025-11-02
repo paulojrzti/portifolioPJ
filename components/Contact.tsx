@@ -105,7 +105,7 @@ const Contact = () => {
             onClick={() => setIsOpen(true)}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="px-12 py-5 bg-primary text-black font-bold text-lg rounded-lg glow-effect hover:bg-ring transition-colors inline-block"
+            className="px-12 py-5 gradient text-black font-bold text-lg rounded-lg glow-effect hover:bg-ring transition-colors inline-block"
           >
             Iniciar Conversa
           </motion.button>
@@ -225,7 +225,7 @@ const Contact = () => {
                   className={`w-full py-3 font-bold rounded-lg transition-all flex items-center justify-center gap-2 ${
                     loading
                       ? "bg-gray-600 text-gray-300 cursor-not-allowed"
-                      : "bg-primary text-black hover:bg-ring glow-effect"
+                      : "gradient text-black hover:bg-ring glow-effect"
                   }`}
                 >
                   {loading ? (
