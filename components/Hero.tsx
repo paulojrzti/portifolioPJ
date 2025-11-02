@@ -55,7 +55,9 @@ const Hero = () => {
 
           {/* tech animadas */}
           <div className="flex items-center justify-center gap-3 text-xl md:text-2xl text-gray-400 font-mono">
-            <span className="text-gray-300">Especialista em</span>
+            <span className="text-gray-300  whitespace-nowrap">
+              Especialista em
+            </span>
             <motion.span
               key={currentTech}
               initial={{ opacity: 0, y: 20 }}
@@ -83,13 +85,13 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
-            className="flex flex-col max-sm:flex-row sm:flex-row items-center justify-center gap-4 pt-8"
+            className="flex flex-col max-sm:flex-row sm:flex-row items-center justify-center gap-4 md:pt-8 pt-5"
           >
             <motion.a
               href="#projects"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 bg-[#9b5cff] text-white font-semibold rounded-lg glow-effect hover:bg-[#7a3eff] transition-colors"
+              className="px-8 py-3 md:py-4 bg-[#9b5cff] text-white font-semibold rounded-lg glow-effect hover:bg-[#7a3eff] transition-colors whitespace-nowrap"
             >
               Ver Projetos
             </motion.a>
@@ -98,7 +100,7 @@ const Hero = () => {
               href="#contact"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              className="px-8 py-4 border-2 border-[#9b5cff] text-[#9b5cff] font-semibold rounded-lg hover:bg-[#9b5cff]/10 transition-colors"
+              className="px-8 py-3 md:py-4 border-2 border-[#9b5cff] text-[#9b5cff] font-semibold rounded-lg hover:bg-[#9b5cff]/10 transition-colors whitespace-nowrap"
             >
               Entrar em Contato
             </motion.a>
