@@ -21,23 +21,23 @@ const experiences: Experience[] = [
     title: "Freelancer",
     role: "Desenvolvedor Web",
     description:
-      "Criação de sites modernos e institucionais em WordPress e Next.js, com foco em performance, UI limpa e UX otimizada.",
+      "Desenvolvimento de sites institucionais e modernos em WordPress e Next.js, com foco em UI limpa, responsividade e performance otimizada.",
     icon: Code2,
   },
   {
-    year: "2024",
+    year: "2025",
     title: "Riachuelo",
-    role: "Varanda • Next.js Dev",
+    role: "Vendas e Soluções Internas",
     description:
-      "Desenvolvimento de um sistema interno de metas e automação de processos para otimizar a operação da equipe.",
+      "Atuação no setor de eletrônicos com foco em metas e atendimento. Identifiquei uma necessidade interna e criei um sistema completo de gestão em Next.js, otimizando relatórios e resultados da equipe.",
     icon: Rocket,
   },
   {
-    year: "2023 - 2024",
-    title: "Expansiva Gestão",
+    year: "2024-2025",
+    title: "Expansiva Gestão Empresarial",
     role: "Automação e CRM",
     description:
-      "Implantação de fluxos automatizados e sistemas personalizados de CRM, integrando processos e relatórios.",
+      "Desenvolvimento de fluxos automatizados e integração de atendimento via WhatsApp e CRM, centralizando dados e relatórios de clientes.",
     icon: Zap,
   },
   {
@@ -45,7 +45,7 @@ const experiences: Experience[] = [
     title: "Laplace Consultoria",
     role: "Estágio em Web Design",
     description:
-      "Criação de landing pages e dashboards técnicos, aprimorando práticas de UI e front-end responsivo.",
+      "Criação de landing pages e dashboards técnicos, aprimorando práticas de UI, responsividade e design orientado à experiência do usuário.",
     icon: Briefcase,
   },
 ];

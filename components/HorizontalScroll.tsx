@@ -20,6 +20,8 @@ export default function HorizontalScroll() {
     { name: "GSAP", level: 82, category: "Animation" },
     { name: "Git", level: 90, category: "Tools" },
     { name: "Figma", level: 75, category: "Design" },
+    { name: "Wordpress", level: 75, category: "CMS" },
+    { name: "Elementor", level: 75, category: "CMS" },
     { name: "Performance", level: 85, category: "Optimization" },
   ];
 

@@ -25,7 +25,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex items-center justify-center px-6 pt-20"
+      className="relative min-h-screen flex flex-col items-center justify-center px-6 pt-20"
     >
       <div className="max-w-7xl mx-auto w-full">
         <motion.div
@@ -112,7 +112,7 @@ const Hero = () => {
       <motion.div
         animate={{ y: [0, 10, 0] }}
         transition={{ repeat: Infinity, duration: 2 }}
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
+        className="mt-[10%] 2xl:mt-[3%]"
       >
         <ChevronDown className="text-[#9b5cff]" size={32} />
       </motion.div>

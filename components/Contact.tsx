@@ -261,7 +261,8 @@ const Contact = () => {
         className="text-center mt-24 pt-12 border-t border-white/10"
       >
         <p className="text-gray-500 text-sm">
-          © 2024 Paulo Junior. Desenvolvido com React & Framer Motion
+          © 2025 Paulo Junior. Desenvolvido com Next, Framer Motion, TailwindCSS
+          & Gsap.
         </p>
         <p className="text-gray-600 text-xs mt-2 font-mono">
           {"<code> with ❤️ </code>"}

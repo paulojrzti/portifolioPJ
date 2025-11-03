@@ -89,16 +89,37 @@ const About = () => {
             className="space-y-6"
           >
             <p className="text-gray-300 text-lg leading-relaxed">
-              Sou desenvolvedor front-end apaixonado por criar interfaces
-              modernas e performáticas. Especializado em React e Next.js, busco
-              sempre entregar experiências únicas através de animações fluidas e
-              design minimalista.
+              Sou um{" "}
+              <strong className="text-white">desenvolvedor front-end</strong>{" "}
+              movido pela ideia de que cada linha de código pode transformar uma
+              experiência digital. Trabalho com{" "}
+              <strong className="text-[#9b5cff]">React</strong> e{" "}
+              <strong className="text-[#9b5cff]">Next.js</strong> para criar
+              interfaces modernas, performáticas e cheias de personalidade
+              onde design e performance caminham lado a lado.
             </p>
+
             <p className="text-gray-300 text-lg leading-relaxed">
-              Meu foco está em transformar designs complexos em código limpo e
-              eficiente, sempre priorizando performance e acessibilidade.
+              Tenho paixão por{" "}
+              <strong className="text-white">animações fluidas</strong> e{" "}
+              <strong className="text-white">
+                interações que contam histórias
+              </strong>
+              . Meu foco está em transformar ideias complexas em experiências
+              intuitivas e visualmente marcantes, com atenção especial à{" "}
+              <strong className="text-[#9b5cff]">performance</strong> e à{" "}
+              <strong className="text-[#9b5cff]">acessibilidade</strong>.
             </p>
-            <div className="flex flex-wrap gap-3 pt-4">
+
+            <p className="text-gray-300 text-lg leading-relaxed">
+              Acredito que o bom design não é só o que se vê é o que se sente
+              ao usar. Por isso, busco sempre elevar o padrão do front-end,
+              unindo <strong className="text-white">tecnologia</strong>,{" "}
+              <strong className="text-white">criatividade</strong> e{" "}
+              <strong className="text-white">propósito</strong> em cada projeto.
+            </p>
+
+            <div className="flex flex-wrap gap-3 pt-4 lg:flex md:hidden">
               {[
                 "React",
                 "Next.js",
