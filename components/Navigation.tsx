@@ -60,27 +60,29 @@ const Navigation = () => {
             : "bg-transparent"
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+        <div className="max-w-7xl mx-auto px-6 py-4 flex items-ceter justify-between">
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="text-xl font-bold gradient-text cursor-pointer"
+            className="text-xl font-bold text-foreground cursor-pointer font-atyp-display tracking-wide"
           >
             {"<PJ />"}
           </motion.div>
 
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-10 justify-center">
             {navItems.map((item, index) => (
               <motion.a
                 key={index}
                 href={item.href}
                 whileHover={{ y: -2 }}
-                className="text-sm text-gray-400 hover:text-primary transition-colors"
+                className="text-sm text-foreground/80 uppercase hover:text-foreground transition-colors"
               >
                 {item.label}
               </motion.a>
             ))}
+            <button className="hidden md:flex border border-[border: 1px solid rgba(239, 239, 230, 0.39);] px-6 py-2 rounded-lg text-sm text-foreground hover:bg-foreground  hover:text-background   transition-colors">
+              Disponível para projetos
+            </button>
           </div>
-
           <button
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="md:hidden text-white z-50"
@@ -115,7 +117,7 @@ const Navigation = () => {
                   href={item.href}
                   onClick={() => setIsMobileMenuOpen(false)}
                   variants={itemVariants}
-                  className="text-3xl font-medium text-gray-300 hover:text-primary transition-colors"
+                  className="text-3xl font-medium text-foreground hover:text-primary transition-colors"
                 >
                   {item.label}
                 </motion.a>
